@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>flowCanvas</title>
+    <link rel="stylesheet" type="text/css" href="js/flowCanvas/flowCanvas.css">
+  </head>
+<body>
+  <div class="flowmodule">
+              <button class="moduleBtn" data-dismiss='mindModule' name="module" hadChange="0" id="1">存现时间、金额</button>
+              <button class="moduleBtn" data-dismiss='mindModule' name="module" hadChange="0" id="2">交款人性质</button>
+              <button class="moduleBtn" data-dismiss='mindModule' name="module" hadChange="0" id="3">交款人信息（个人）</button>
+              <button class="moduleBtn" data-dismiss='mindModule' name="module" hadChange="0" id="4">交款人信息（企业）</button>
+            </div>
+
+  <div class="mainDiv" data-dismiss='flowMainDiv'>
+              loading...
+            </div>
+</body>
+  <script type="text/javascript" src="js/jquery.1.8.js"></script>
+  <script type="text/javascript" src="js/flowCanvas/flowCanvas.js"></script>
+	<script type="text/javascript">
+  $(".mainDiv").flowCanvas();
+	</script>
+</html>

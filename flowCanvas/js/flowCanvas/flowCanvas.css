@@ -1,0 +1,56 @@
+	.mainDiv{
+		width:960px;
+		height: 600px;
+		margin: 0 auto;
+	}
+	.num{
+		position: relative;
+		top: -15px;
+		left: -5px;
+		font-size: 1px;
+		font-family: "微软雅黑";
+	}
+	.flowmodule{
+		min-height: 50px;
+		width:100%;
+	}
+	.moduleBtn{
+	  color: #ffffff;
+	  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	  background-color: #49afcd;
+	  *background-color: #2f96b4; 
+	  background-repeat: repeat-x;
+	  border-color: #2f96b4 #2f96b4 #1f6377;
+	  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+		  z-index:999;
+	}
+	.flowModuleChange{
+		background-color: #F92657;
+	}
+	.selectModule{
+		background-color: #4DC763;
+	}
+	.basicLineCss{
+		position: absolute;
+		background-color: red;
+		filter:alpha(opacity=30);
+		-moz-opacity:0.3;
+		-khtml-opacity: 0.3;
+		opacity: 0.3;
+		cursor: pointer;
+	}
+	#fomuDIV {
+		display:none;
+		position:absolute;
+		padding:5px;
+		bottom:0px;
+		left:0px;
+		width:555px;
+		height:120px;
+		border:3px solid #ccc;
+		background:#fff;
+		z-index:999999;
+	}
+	#fomuDIVSave {
+		margin:5px;
+	}
